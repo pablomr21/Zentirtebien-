@@ -1,0 +1,37 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    }
+/*Menu de navegacion*/
+.contenedor-header{
+display: flex;
+flex-direction:  column;
+justify-content: space-between;
+margin-bottom: 2px solid black;
+    .logo{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .menu-navegacion{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        list-style-type: none;
+        li{
+            a{
+              text-decoration: none;
+              color: black;  
+           
+            }
+            a:hover{
+                color: rgb(1, 65, 1);
+            }
+        }
+    }
+
+}
