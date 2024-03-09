@@ -7,20 +7,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Link Css-->
     <!---Link CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!---Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat:wght@500&family=Mukta+Vaani:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Zentirte bien-Inicio</title>
 </head>
-<body>
+<body class="bg-success-subtle text-success-emphasis">
     <header>
         <!--Header-->
         <section class="contenedor-header">
             <!--Logo-->
-            <section class="logo">
-                <img src="./assets/logo_zentirte_bien.png.jpeg" alt="logo Zentirte bien">
+            <section class="logo ">
+                <img class="bg-success-subtle text-success-emphasis" src="./assets/logo_zentirte_bien.png.jpeg" alt="logo Zentirte bien">
             </section>
            <!--Menu de navegacion-->
             <ul class="menu-navegacion">
-                <li><a href="./index.html">Zentirte bien</a></li>
+               
                 <li><a href="./pages/proteinas.html">Proteinas</a></li>
                 <li><a href="./pages/snack_saludables.html">Snack Saludbles</a></li>
                 <li><a href="./pages/infusiones.html">Infusiones</a></li>
@@ -37,31 +41,55 @@
         </section>
         <!--Card Productos-->
         <section class="productos">
-            <section class="card">
+            <section class="card bg-success-subtle text-success-emphasis">
                 <h2><a href="./pages/proteinas.html">Proteinas</a></h2>
                 <img src="./assets/proteina_card.jpg" alt="Imagen de proteina">
             </section>
-            <section class="card">
+            <section class="card bg-success-subtle text-success-emphasis">
                 <h2><a href="./pages/snack_saludables.html">Snack saludables</a></h2>
                 <img src="./assets/snacks_saludables.jpg" alt="imagen de snack saludables">
             </section>
-            <section class="card">
+            <section class="card bg-success-subtle text-success-emphasis">
                 <h2><a href="./pages/infusiones.html">infusiones</a></h2>
                 <img src="./assets/infusion_frutas.jpg" alt="Imagen de infusiones">
             </section>
-            <section class="card">
+            <section class="card bg-success-subtle text-success-emphasis">
                 <h2><a href="">Recetas</a></h2>
                 <img src="./assets/recetas.jpg" alt="Imagen de Recetas">
             </section>
         </section>
-       
-    
+        <hr class="mb-4">
+
+             <!--- Primer contenedor -->
+      <section class="container-fluid p-3 mb-2 bg-success-subtle text-success-emphasis">
+        <div class="row">
+          <!---Breakpoints xs,s,m,lg,xl-->
+      
+            <!--Imagen 1-->
+          <div class="col-sm-12 col-md-6 col-lg-6 tarjeta">
+            <img class="img-fluid imageninicio mb-3" alt="Trekking" src="./assets/burrito_saludables.jpg" alt="burrito saludable">
+         
+          </div>
+           
+            <!--Texto-->
+          <div class="col-sm-12 col-md-6 col-lg-6 tarjeta parrafo1 ">
+            <h2 class="text-center"> Burritos Saludables</h2>
+            <p>En lugar de optar por tortillas procesadas y rellenos cargados de grasas saturadas, los burritos saludables comienzan con una base de tortilla integral o de espinacas, rica en fibra y nutrientes esenciales. Estas opciones proporcionan carbohidratos complejos que liberan energía de manera sostenida, contribuyendo a mantener niveles de azúcar en sangre estables.</p>
+            <div class="contenedor-boton">
+              <a href="./pages/recetas.html"><button type="button" class="btn btn-success ">Conoce esta receta!</button></a>
+            </div>
+
+          </div>
+          <hr class="mb-4">
+        </div>
+      </section>
 
 
+      
     </main>
     <footer>
 
     </footer>
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

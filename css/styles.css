@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     }
+ 
 /*Menu de navegacion*/
 .contenedor-header{
 display: flex;
@@ -27,7 +28,9 @@ margin-bottom: 2px solid black;
         li{
             a{
               text-decoration: none;
-              color: black;  
+              color: black; 
+              font-family: 'Cormorant Garamond', serif;
+              font-weight: bold; 
            
             }
             a:hover{
@@ -42,11 +45,12 @@ margin-bottom: 2px solid black;
 .tituloprincipal{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 .productos{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 50px;
     flex-wrap: wrap;
     .card{
         display: flex;
@@ -56,6 +60,9 @@ margin-bottom: 2px solid black;
             a{
                 text-decoration: none;
                 color: black;
+                font-family: 'Cormorant Garamond', serif;
+                font-weight: bold;
+
             }
             a:hover{
                 color: rgb(1, 65, 1);
@@ -63,9 +70,59 @@ margin-bottom: 2px solid black;
 
         }
         img{
-            height: 350px;
-            width: 250px;
+            height: 250px;
+            width: 150px;
         }
         
     }
+}
+
+/*Contendor texto imagen*/
+.parrafo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/*Botones*/
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn-success{
+    color: white;
+    &:hover{
+        color: black;
+    }
+}
+
+
+.imgcarousel{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Fuentes 
+H1
+font-family: 'Montserrat', sans-serif;
+H2,H3
+font-family: 'Cormorant Garamond', serif;
+P
+font-family: 'Mukta Vaani', sans-serif;
+*/
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
 }
