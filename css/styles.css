@@ -77,6 +77,10 @@ margin-bottom: 2px solid black;
     }
 }
 
+.imageninicio{
+   width: 100%;
+}
+
 /*Contendor texto imagen*/
 .parrafo1{
     display: flex;
