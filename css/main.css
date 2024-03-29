@@ -15,27 +15,42 @@ P
 font-family: 'Mukta Vaani', sans-serif;
 */
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-h2 h3 {
+h2 h3 a li {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /*Header*/
-/*Logo*/
-.contenedorlogo {
+/*Caja conteneddor logo-nombre*/
+.contenedorlogo-nombre {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  background-color: rgb(115, 185, 115);
+  justify-content: flex-start;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+/*Logo*/
 .logo {
-  width: 300px;
-  height: 300px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20px;
+}
+
+/*Titulo principal*/
+.titulo-principal {
+  color: black;
+  font-weight: 550;
+}
+.titulo-principal:hover {
+  color: rgb(1, 65, 1);
 }
 
 /*Menu de navegacion*/
@@ -73,9 +88,10 @@ h2 h3 {
 /*Index*/
 /*Main*/
 /* Productos*/
-.tituloprincipal {
+.tituloprincipal2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -145,8 +161,8 @@ h2 h3 {
   border-radius: 15px;
 }
 
-.cuadrado-imagen {
-  background-color: black;
+.cuadrado-imagen-avenas {
+  background-color: rgb(7, 117, 13);
   color: white;
   position: absolute;
   width: 300px;
@@ -157,15 +173,40 @@ h2 h3 {
   border-radius: 20px;
   /*Pseudocódigo cuadrado-imagen*/
 }
-.cuadrado-imagen p {
+.cuadrado-imagen-avenas p {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
 }
-.cuadrado-imagen p:hover {
+.cuadrado-imagen-avenas p:hover {
   transform: scale(1.1);
+  font-weight: lighter;
+}
+
+.cuadrado-imagen-burritos {
+  background-color: rgb(7, 117, 13);
+  color: white;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  /*Pseudocódigo cuadrado-imagen*/
+}
+.cuadrado-imagen-burritos p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.cuadrado-imagen-burritos p:hover {
+  transform: scale(1.1);
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=main.css.map */
