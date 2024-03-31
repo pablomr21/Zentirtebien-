@@ -4,7 +4,6 @@
     margin: 0;
     }
 
-   /* Fonts*/ 
 
    /* Fuentes 
 H1
@@ -24,4 +23,17 @@ h1{
 h2 h3 a li{
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
+}
+
+
+/*Botones*/
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+/*Enlaces*/
+a{
+text-decoration: none;
+color: white;
 }
