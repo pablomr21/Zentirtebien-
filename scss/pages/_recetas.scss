@@ -5,6 +5,9 @@
   display: flex;
   justify-content: center;
   box-shadow: 5px 8px 12px black;
+  .img-fluid{
+    object-fit: cover;
+  }
   
 }
 .avena{
@@ -12,8 +15,6 @@
     height: 100%; 
     background-size: contain;
     border-radius: 15px;
-
- 
 }
 .cuadrado-imagen-avenas{
     background-color: rgb(0, 0, 0);

@@ -18,6 +18,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
+    color: black;
 }
 
 h2 h3 a li{
@@ -37,3 +38,42 @@ a{
 text-decoration: none;
 color: white;
 }
+
+/*Blog*/
+/*Titulo*/
+.titulo-blog{
+    display: flex;
+    justify-content: center;
+font-size: 1.5rem;
+    margin: 0;
+}
+/*Imágenes*/
+.container-img-blog{
+    width: 100%;
+    height: 600px;
+    display: flex;
+  justify-content: center;
+
+  .img-fluid{
+    object-fit: cover;
+    box-shadow: 4px 8px 8px black;
+  }
+}
+
+/*
+.container-img-blog{
+    width: 100%;
+    border-radius: 15px;
+    height: 600px;
+    display: flex;
+  justify-content: center;
+  box-shadow: 5px 8px 12px black;
+    img{
+        object-fit: cover;
+        width: 70%;
+        height: 100% ;
+    }
+}
+
+
+*/
