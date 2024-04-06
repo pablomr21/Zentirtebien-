@@ -46,6 +46,14 @@ a {
   margin: 0;
 }
 
+/*Intro descripción*/
+.intro {
+  text-align: center;
+  margin: 15px auto;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
 /*Imágenes*/
 .container-img-blog {
   width: 100%;
@@ -58,23 +66,36 @@ a {
   box-shadow: 4px 8px 8px black;
 }
 
-/*
-.container-img-blog{
-    width: 100%;
-    border-radius: 15px;
-    height: 600px;
-    display: flex;
-  justify-content: center;
-  box-shadow: 5px 8px 12px black;
-    img{
-        object-fit: cover;
-        width: 70%;
-        height: 100% ;
-    }
+/*Breadcrumbs*/
+.breadcrumbs {
+  list-style: none;
+  width: 400px;
+  height: 30px;
+}
+.breadcrumbs li {
+  display: inline-block;
+}
+.breadcrumbs li::after {
+  content: " >   ";
+  color: black;
+}
+.breadcrumbs li:last-child::after {
+  content: " ";
+}
+.breadcrumbs li a {
+  color: rgb(64, 64, 250);
+}
+.breadcrumbs li a:hover {
+  color: black;
 }
 
+.parrafo {
+  text-align: center;
+  margin: 15px auto;
+  max-width: 1000px;
+  padding: 0 10px;
+}
 
-*/
 /*Header*/
 /*Caja conteneddor logo-nombre*/
 .contenedorlogo-nombre {
@@ -202,6 +223,7 @@ a {
   display: flex;
   justify-content: center;
   box-shadow: 5px 8px 12px black;
+  margin: 50px px 10px;
 }
 .recetas .img-fluid {
   object-fit: cover;
