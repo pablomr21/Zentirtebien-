@@ -15,15 +15,19 @@ font-family: 'Mukta Vaani', sans-serif;
 */
 
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--titulo-subtitulo) ;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
 }
 
 h2 h3 a li{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--h2-adelante);
     font-size: 1.5rem;
+}
+
+p{
+    font-family: var(--parrafo);
 }
 
 
@@ -100,3 +104,42 @@ font-size: 1.5rem;
     padding: 0 10px;
   
 }
+
+/*Subtitulo primer parrafo*/
+.text-center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* Colores
+$colores:(
+    dominante:#AEEE97,
+    segundo:#8DB07F,
+    tercero:#E0F8D5,
+    cuarto:#0056B0,
+)
+*/
+
+
+:root{
+    --titulo-subtitulo:'Montserrat', sans-serif;
+    --h2-adelante: 'Cormorant Garamond', serif;
+    --parrafo:"Mukta Vaani", sans-serif;
+    
+}
+
+:root{
+    --color-dominante:#AEEE97,
+    --color-segundo:#8DB07F,
+    --color-tercero:#E0F8D5,
+    --color-cuarto:#0056B0,
+}
+$fonts:(
+    h1-h2:'Montserrat',
+    h3-adelante:'Cormorant Garamond' serif,
+    parrafo:"Mukta Vaani",
+
+
+)

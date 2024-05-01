@@ -2,6 +2,48 @@
 /*Index*/
 
 /*Main*/
+/*Background image*/
+.hero{
+    background-image:url(../../assets/comida_saludable.jpg) ;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center center;
+    
+}
+
+.hero-parrafo{
+    line-height:1.8;
+    padding-left: 50px;
+    margin: 0;
+    animation-name: parragraph;
+    animation-duration: 3s;
+    color: var(--dominante);
+    font-family: map-get($fonts ,h3-adelante);
+
+}
+/*   color: map-get($colores ,tercero);*/
+
+/*Animation hero parragraph*/
+@keyframes parragraph {
+    0%   {opacity: 0;}
+    25% {opacity:0.25;}
+    50%   {opacity: 0.5;}
+    75% {opacity:0.75}
+    100% {opacity:1;}
+}
+
+
+/*Segunda seccion*/
+.segunda-seccion{
+    background-color:#46A430;
+    display: flex;
+    width: 100%;
+}
+
+
 /* Productos*/
 .tituloprincipal2{
     display: flex;

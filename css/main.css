@@ -14,15 +14,19 @@ P
 font-family: 'Mukta Vaani', sans-serif;
 */
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--titulo-subtitulo);
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
 }
 
 h2 h3 a li {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--h2-adelante);
   font-size: 1.5rem;
+}
+
+p {
+  font-family: var(--parrafo);
 }
 
 /*Botones*/
@@ -96,23 +100,44 @@ a {
   padding: 0 10px;
 }
 
-/*Header*/
-/*Caja conteneddor logo-nombre*/
-.contenedorlogo-nombre {
+/*Subtitulo primer parrafo*/
+.text-center {
   display: flex;
-  background-color: rgb(115, 185, 115);
-  justify-content: flex-start;
-  gap: 50px;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Colores
+$colores:(
+    dominante:#AEEE97,
+    segundo:#8DB07F,
+    tercero:#E0F8D5,
+    cuarto:#0056B0,
+)
+*/
+:root {
+  --titulo-subtitulo:"Montserrat", sans-serif;
+  --h2-adelante: "Cormorant Garamond", serif;
+  --parrafo:"Mukta Vaani", sans-serif;
+}
+
+:root {
+  --color-dominante:#AEEE97,
+  --color-segundo:#8DB07F,
+  --color-tercero:#E0F8D5,
+  --color-cuarto:#0056B0, ;
+}
+
+/*Header*/
+/*Backgroundcolor*/
+.header-color {
+  background-color: #AEEE97;
 }
 
 /*Logo*/
 .logo {
   width: 50px;
   height: 50px;
-  position: relative;
-  left: 20px;
 }
 
 /*Titulo principal*/
@@ -125,21 +150,30 @@ a {
 }
 
 /*Menu de navegacion*/
-.menu-navegacion {
+.navbar-nav {
   display: flex;
   gap: 20px;
-  justify-content: center;
   list-style-type: none;
   flex-wrap: wrap;
 }
-.menu-navegacion li a {
+.navbar-nav li a {
   text-decoration: none;
   color: black;
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
 }
-.menu-navegacion li a:hover {
-  color: rgb(1, 65, 1);
+.navbar-nav li a:hover {
+  color: rgb(250, 252, 250);
+}
+
+.gap-nav {
+  gap: 50px;
+}
+
+.menu-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /*Footer*/
@@ -158,6 +192,53 @@ a {
 
 /*Index*/
 /*Main*/
+/*Background image*/
+.hero {
+  background-image: url(../../assets/comida_saludable.jpg);
+  padding-top: 280px;
+  padding-bottom: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center center;
+}
+
+.hero-parrafo {
+  line-height: 1.8;
+  padding-left: 50px;
+  margin: 0;
+  animation-name: parragraph;
+  animation-duration: 3s;
+  color: var(--dominante);
+  font-family: "Cormorant Garamond" serif;
+}
+
+/*   color: map-get($colores ,tercero);*/
+/*Animation hero parragraph*/
+@keyframes parragraph {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*Segunda seccion*/
+.segunda-seccion {
+  background-color: #46A430;
+  display: flex;
+  width: 100%;
+}
+
 /* Productos*/
 .tituloprincipal2 {
   display: flex;
