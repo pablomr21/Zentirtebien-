@@ -230,11 +230,12 @@ $colores:(
   background-color: #E0F8D5;
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 .segunda-seccion .row {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .card-color-1 {
@@ -244,6 +245,10 @@ $colores:(
   animation-delay: 1s;
   position: relative;
   animation-timing-function: ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .card-color-2 {
@@ -252,7 +257,6 @@ $colores:(
   animation-duration: 1s;
   animation-delay: 1s;
   position: relative;
-  animation-timing-function: ease;
 }
 
 .card-color-3 {
@@ -325,11 +329,30 @@ a {
   color: black;
 }
 
-/*Segunda seccion*/
+/*Tercera seccion*/
 .tercera-seccion {
   background-color: #8DB07F;
   display: flex;
   width: 100%;
+}
+
+/*Cuarta seccion*/
+.cuarta-seccion {
+  background-color: #E0F8D5;
+  display: flex;
+  width: 100%;
+}
+.cuarta-seccion p {
+  color: black;
+}
+
+/*Productos en tendencia*/
+.tendencia {
+  background-color: #AEEE97;
+}
+.tendencia h2 {
+  font-family: var(--h2-adelante);
+  text-align: center;
 }
 
 /* Productos*/
