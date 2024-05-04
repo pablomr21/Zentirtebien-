@@ -3,7 +3,7 @@
 
 /*Backgroundcolor*/
 .header-color{
-    background-color: #AEEE97;
+    background-color:map-get($colores, color-dominante);
 }
 
 

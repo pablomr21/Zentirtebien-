@@ -130,16 +130,13 @@ $colores:(
     
 }
 
-:root{
-    --color-dominante:#AEEE97,
-    --color-segundo:#8DB07F,
-    --color-tercero:#E0F8D5,
-    --color-cuarto:#0056B0,
-}
-$fonts:(
-    h1-h2:'Montserrat',
-    h3-adelante:'Cormorant Garamond' serif,
-    parrafo:"Mukta Vaani",
-
-
+$colores:(
+    color-dominante:#AEEE97,
+    color-segundo:#8DB07F,
+    color-tercero:#E0F8D5,
+    color-cuarto:#0056B0,
+    blanco:white,
+    negro:black
 )
+
+
