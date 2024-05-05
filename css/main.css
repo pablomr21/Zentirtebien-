@@ -187,7 +187,7 @@ $colores:(
 /*Main*/
 /*Background image*/
 .hero {
-  background-image: url(../../assets/comida_saludable.jpg);
+  background-image: url(../..//assets/hero.png);
   padding-top: 280px;
   padding-bottom: 280px;
   background-size: cover;
@@ -353,6 +353,33 @@ a {
 .tendencia h2 {
   font-family: var(--h2-adelante);
   text-align: center;
+}
+
+.productos-tendencia {
+  background-color: #E0F8D5;
+}
+.productos-tendencia .card-productos-tendencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productos-tendencia .card-productos-tendencia img {
+  width: 250px;
+  height: auto;
+}
+.productos-tendencia .card-productos-tendencia h5 {
+  font-family: var(--h2-adelante);
+  font-weight: 700;
+}
+.productos-tendencia .card-productos-tendencia p {
+  font-family: var(--parrafo);
+  color: black;
+  font-weight: 700;
+}
+
+.card-productos-tendencia:hover {
+  box-shadow: -8px 10px 38px 11px rgba(0, 0, 0, 0.1);
+  transition: 0, 5s;
 }
 
 /* Productos*/
