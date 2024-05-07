@@ -183,6 +183,10 @@ $colores:(
   z-index: 1;
 }
 
+.colorfooter2 {
+  background-color: #AEEE97;
+}
+
 /*Index*/
 /*Main*/
 /*Background image*/
@@ -229,7 +233,6 @@ $colores:(
 .segunda-seccion {
   background-color: #E0F8D5;
   display: flex;
-  width: 100%;
   justify-content: center;
 }
 .segunda-seccion .row {
@@ -299,6 +302,11 @@ $colores:(
     top: 0px;
   }
 }
+.segunda-seccion {
+  display: flex;
+  justify-content: center;
+}
+
 .card-img-container {
   height: 300px;
   width: 100%;
@@ -441,6 +449,11 @@ a {
   color: black;
 }
 
+/*Contenedor 1 recetas*/
+.contenedor1 {
+  background-color: #E0F8D5;
+}
+
 /*Recetas*/
 .recetas {
   height: auto;
@@ -507,6 +520,14 @@ a {
 .cuadrado-imagen-burritos p:hover {
   transform: scale(1.1);
   font-weight: lighter;
+}
+
+/*--------------Avena-------------*/
+.card-container {
+  background-color: #E0F8D5;
+}
+.card-container .card {
+  background-color: #8DB07F;
 }
 
 /*# sourceMappingURL=main.css.map */

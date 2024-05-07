@@ -40,7 +40,7 @@
 .segunda-seccion{
     background-color:map-get($colores ,color-tercero);
     display: flex;
-    width: 100%;
+
     justify-content: center;
     
     .row{
@@ -98,7 +98,10 @@
 }
 
 
-
+.segunda-seccion{
+    display: flex;
+    justify-content: center;
+}
     .card-img-container{
         height:300px;
         width: 100%;
