@@ -82,6 +82,16 @@
 .card-container{
     background-color: map-get($colores,color-tercero);
     .card{
-         background-color: map-get($colores,color-segundo);
+        h5{
+            color: map-get($colores,color-segundo);
+        }
+        p{
+            color:map-get($colores,negro);
+        }
+       
+      
     }
 }
+
+
+
