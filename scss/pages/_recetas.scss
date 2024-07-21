@@ -94,4 +94,83 @@
 }
 
 
+/*---------------Burritos------------------*/
+
+/*Hero burrito principal*/
+.burritoprincipal{
+    background-image: url(../../assets/recetas/burritos/burritos.png);
+    width: 100%;
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 280px;
+
+}
+
+.parrafo1{
+    height: 50vh;
+}
+.burritos-segunda-seccion{
+    height: 40vh;
+    background-color: map-get($colores , color-segundo );
+}
+.burritos-segunda-seccion{
+    height: 30vh;
+    background-color: map-get($colores, blanco);
+    
+}
+
+/* Telefono*/
+
+@media only screen and (max-width:640px) {
+    .burritos-segunda-seccion{
+        height: 20vh;
+        background-color: map-get($colores, blanco);
+        
+    }
+}
+
+.contenedor-sombrero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.sombrero{
+    width: 200px;
+    height: 200px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.burritos-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 300px;
+        height: auto;
+  
+    }
+  
+    p{
+        color: black;
+        text-align: center;
+    }
+}
+
+.cuarta-seccion-burritos{
+    background-color:map-get($colores ,color-dominante) ;
+    display: flex;
+    height: 10vh;
+    p{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
 

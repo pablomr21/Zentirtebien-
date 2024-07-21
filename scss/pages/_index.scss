@@ -47,6 +47,11 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        .tarjeta-productos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     
     }
 }
